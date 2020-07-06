@@ -8,9 +8,9 @@
  
    2-1. 터미널에 npm cache clean --force 
 
-    ->  node_modules 폴더와 package-lock.json 파일 삭제 
+      ->  node_modules 폴더와 package-lock.json 파일 삭제 
     
-    -> 터미널에 npm install 
+       -> 터미널에 npm install 
 
    2-2. package-lock.json 파일만 삭제
    
@@ -36,14 +36,14 @@
 
 4. 해결책
   
-  윗 방법 중 3-3 시도 방법이 성공. 
+   윗 방법 중 3-3 시도 방법이 성공. 
   
-  index.js 파일 코드 중
+   index.js 파일 코드 중
 
-  >app.user(bodyParser.urlencoded({extended:true}));
-  >app.user(bodyParser.json());
+   >app.user(bodyParser.urlencoded({extended:true}));
+   >app.user(bodyParser.json());
 
-  app.user을 app.use로 수정해서 해결
+   app.user을 app.use로 수정해서 해결
 
->app.use(bodyParser.urlencoded({extended:true}));
->app.use(bodyParser.json());
+   >app.use(bodyParser.urlencoded({extended:true}));
+   >app.use(bodyParser.json());
