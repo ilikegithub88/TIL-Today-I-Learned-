@@ -7,11 +7,12 @@
 2. code ELIFECYCLE에만 초점 맞춰서 해결하려고 시도한 방법들
  
    2-1. 
+      
       터미널에 npm cache clean --force 
 
-          ->  node_modules 폴더와 package-lock.json 파일 삭제 
+      ->  node_modules 폴더와 package-lock.json 파일 삭제 
     
-          -> 터미널에 npm install 
+      -> 터미널에 npm install 
 
    2-2. package-lock.json 파일만 삭제
    
