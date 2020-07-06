@@ -10,7 +10,7 @@
 
       ->  node_modules 폴더와 package-lock.json 파일 삭제 
     
-       -> 터미널에 npm install 
+      -> 터미널에 npm install 
 
    2-2. package-lock.json 파일만 삭제
    
