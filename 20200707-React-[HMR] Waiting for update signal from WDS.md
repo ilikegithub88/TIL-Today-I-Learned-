@@ -35,14 +35,14 @@
     >  },
     >]
     >
-    > `function App() {
+    > function App() {
     > return (
     >  <div>
     >    {foodILike.map(element => (
-    >      <Food name={element.name} picture={element.image} />
+    >      `<Food name={element.name} picture={element.image} />
     >      <Food key={element.id} name={element.name} picture={element.image} />
-    >    ))}
+    >    ))`}
     >  </div>
-    > );`
+    > );
 
     
