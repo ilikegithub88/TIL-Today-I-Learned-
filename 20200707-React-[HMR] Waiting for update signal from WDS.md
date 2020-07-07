@@ -17,32 +17,3 @@
 3. 코드 자체에 초점 맞춘 해결책
    
    단순한 소스 오타여서 오타 수정하니 간단하게 해결되었다.
-
-   오류 해결한 소스는 아래와 같다.
-
-    >const foodILike = [
-    >  {
-    >    id: 1,
-    >    name: "Kimchi"
-    >  },
-    >  {
-    >    id: 2,
-    >    name: "Samgyeopsal"
-    >  },
-    >  {
-    >    id: 3,
-    >    name: "Bibimbap"
-    >  },
-    >]
-    >
-    > function App() {
-    > return (
-    >  <div>
-    >    {foodILike.map(element => (
-    >      `<Food name={element.name} picture={element.image} />
-    >      <Food key={element.id} name={element.name} picture={element.image} />
-    >    ))`}
-    >  </div>
-    > );
-
-    
