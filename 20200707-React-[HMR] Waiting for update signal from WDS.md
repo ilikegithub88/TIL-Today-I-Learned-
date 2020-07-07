@@ -2,7 +2,7 @@
 
 1. 문제점
    
-    컴포넌트를 반복시키는 작업을 하는데 [HMR] Waiting for update signal from WDS... 메시지가 콘솔에 출력되면서 원하는 결과가 나오지 않았다
+    컴포넌트를 반복시키는 작업을 하는데 [HMR] Waiting for update signal from WDS... 메시지가 콘솔에 출력되면서 원하는 결과가 나오지 않았다.
 
 2. [HMR] Waiting for update signal from WDS...에 초점 맞춰서 해결하려고 시도한 방법들
  
@@ -41,14 +41,14 @@
     >  },
     >]
     >
-    >function App() {
-    >return (
+    > function App() {
+    > return (
     >  <div>
     >    {foodILike.map(element => (
     >      <Food name={element.name} picture={element.image} />
     >      <Food key={element.id} name={element.name} picture={element.image} />
     >    ))}
     >  </div>
-    >);
+    > );
 
     
