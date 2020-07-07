@@ -8,6 +8,7 @@
  
    2-1. 
     package.json 파일에서 version을 0.1.0 에서 3.2.0으로 수정하였다. 그리고 node_modules 폴더를 삭제하고 npm install했다.
+    
    2-2. 
     https://webpack.js.org/guides/hot-module-replacement/#enabling-hmr 를 참조하고 webpack.config.js 파일을 찾았지만 못 찾았다.
    
