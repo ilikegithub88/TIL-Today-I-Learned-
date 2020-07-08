@@ -7,8 +7,8 @@
   
     > getMovies=async ()=>{
     >
-    >       const {data: {data: {movies}}} = 
+    > const {data: {data: {movies}}} = 
     >
-    >       await axios.get("가져올 json");
+    > await axios.get("가져올 json");
     >
     > }
