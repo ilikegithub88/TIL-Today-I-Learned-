@@ -6,8 +6,8 @@
 
 2. 해결책
  
-  2-1. navigator.geolocation.getCurrentPosition() 메서드 안에 timeout을 추가한다.
+   2-1. navigator.geolocation.getCurrentPosition() 메서드 안에 timeout을 추가한다.
     > navigator.geolocation.getCurrentPosition(arg1, arg2, {timeout:7000})
 
-  2-2. 위의 방법이 되지 않는다면 아래 방법을 사용한다.
+   2-2. 위의 방법이 되지 않는다면 아래 방법을 사용한다.
     > navigator.geolocation.getCurrentPosition(arg1, arg2, {maximumAge:60000, timeout:5000, enableHighAccuracy:true});
