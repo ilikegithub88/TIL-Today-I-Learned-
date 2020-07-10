@@ -1,11 +1,10 @@
-# TIL-Today-I-Learned-
+# TIL (Today I Learned)
 
-## TIL definition
- It means that I upload information every time I learn something or fix errors. Fixing errors might be regared as learning something, though.
+## TIL 의미
+ 이름 그대로 오늘 배운 내용을 업로드하는 저장소입니다.
 
-## TIL details
-My TIL repository has a variety of things, especially Ecmascript. It is because I usually focus on languages based on Ecmascript. Vanilla JS, React, Node JS are my priorities.
-Of course, my TIL repository has other kinds of information like Markdown grammars. 
+## TIL 주제
+ 에크마스크립트에 관심이 많기 때문에 바닐라스크립트, 리액트, 노드 등에 대한 내용을 주로 업로드합니다. 물론 마크다운 문법처럼 다른 주제도 올리기도 합니다.
 
-## TIL titles
-I have named the titles of documents like '20200701'. I have tried to emphasis that I give a commit to github every day. That is why my markdown documents are titled according to calendar dates.
+## TIL 글 제목
+'20200701'처럼 달력 날짜를 제목에 넣고 있는데 매일 TIL 저장소에 커밋하고 있는 것을 강조하기 위해서입니다. 
