@@ -1,6 +1,6 @@
 # 리액트 Component Life Cycle
-    컴포넌트를 생성 할 때는 constructor -> componentWillMount -> render -> componentDidMount 순으로 진행된다.
-    컴포넌트를 제거 할 때는 componentWillUnmount 메소드만 실행된다.
+  컴포넌트를 생성 할 때는 constructor -> componentWillMount -> render -> componentDidMount 순으로 진행된다.
+  컴포넌트를 제거 할 때는 componentWillUnmount 메소드만 실행된다.
 ## 컴포넌트 생성 과정
 1. constructor
  
