@@ -15,19 +15,19 @@
 ## 2. 삽입 정렬 코드
 숫자를 이동시킬 때 임시로 숫자를 보관하는 변수 temp가 중요하다.
 
-             function insertSort(array){>
-                var i, j, temp;>
-                for(i=1; i<array.length; i++){>
+             function insertSort(array){
+                var i, j, temp;
+                for(i=1; i<array.length; i++){
                     temp=array[i];
                  
                     for(j=i-1; j>=0 && temp<array[j]; j--){
                     
-                            array[j+1]=array[j];>
+                            array[j+1]=array[j];
                             array[j]=temp;
                  
-                    }>
-                }>
-                return array;>
+                    }
+                }
+                return array;
              }
 
 ## 3. 삽입 정렬 특징
