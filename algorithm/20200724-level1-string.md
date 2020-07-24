@@ -11,105 +11,105 @@
 
 ## 2. 내 풀이
 
-function solution(s) { 
+    function solution(s) { 
 
-    const answer = true;
+        const answer = true;
 
-    let result;
+        let result;
 
-    result=isNaN(s);  
-    
-        if(!result && s!==null && s!==true  && s.length===4
+        result=isNaN(s);  
+        
+            if(!result && s!==null && s!==true  && s.length===4
 
-        || !result && s.length===6){
+            || !result && s.length===6){
 
-            return true;
+                return true;
 
-        }else{
+            }else{
 
-            return false;
+                return false;
 
-        }
+            }
 
-}
+    }
 
 
 ## 3. 다른 사람의 풀이 
 
-function solution(s) {
+    function solution(s) {
 
-    var answer = true;
+        var answer = true;
 
-    for(let i=0;i<s.length;i++){
+        for(let i=0;i<s.length;i++){
 
-        if(isNaN(Number(s[i]))===true){
+            if(isNaN(Number(s[i]))===true){
 
-            return false;
+                return false;
+
+            }
+
+            else if(s.length !== 4 && s.length !== 6){
+
+                return false;
+
+            }
 
         }
 
-        else if(s.length !== 4 && s.length !== 6){
-
-            return false;
-
-        }
+        return answer;
 
     }
 
-    return answer;
-
-}
-
 ***
 
 
-function solution(s) {
+    function solution(s) {
 
-    var answer = true;
+        var answer = true;
 
-    if(s.length==4 || s.length==6){
+        if(s.length==4 || s.length==6){
 
-        for(let c of s.split("")){
+            for(let c of s.split("")){
 
-            let num = c*1;
+                let num = c*1;
 
-            if(0<=num && num<=9) continue;
+                if(0<=num && num<=9) continue;
 
-            answer = false;
+                answer = false;
 
-            break;
+                break;
 
-        }
+            }
 
-    }else answer = false;
+        }else answer = false;
 
-    return answer;
+        return answer;
 
-}
-
-***
-
-function alpha_string46(s){
-
-var regex = /^\d{6}$|^\d{4}$/;
-
-return regex.test(s);
-
-}
+    }
 
 ***
 
-function alpha_string46(s){
+    function alpha_string46(s){
 
-var result = false;
+    var regex = /^\d{6}$|^\d{4}$/;
 
-if((s.length == 4 || s.length == 6) && /^[0-9]+$/.test(s)) {
+    return regex.test(s);
 
-    result = true;
+    }
 
-}
+***
 
-return result;
+    function alpha_string46(s){
 
-}
+    var result = false;
+
+    if((s.length == 4 || s.length == 6) && /^[0-9]+$/.test(s)) {
+
+        result = true;
+
+    }
+
+    return result;
+
+    }
 
