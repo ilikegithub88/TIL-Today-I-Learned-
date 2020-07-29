@@ -21,6 +21,6 @@ or a class/function (for composite components) but got: object.' 메세지가 �
 
 ### 3. 해결책
    
-연습용으로 만든 컴포넌트에서 메서드가 오류나길래 그 코드를 다 지워버렸지만 App.js에서 그 파일을 import하고 컴포넌트 관련 코드가 있는 상태였다.
+연습용으로 만든 컴포넌트의 코드를 다 지워버렸지만 App.js에서 그 파일을 import하고 컴포넌트 관련 코드가 있는 상태였다.
 
 App.js에서 그 컴포넌트 관련 코드를 지워버리니 에러 메시지가 사라졌다.
