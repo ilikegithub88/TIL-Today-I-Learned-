@@ -33,3 +33,4 @@ Parsing error: Unterminated JSX contents 메시지가 떴다.
             <h1> {bread} <h1>  // </h1>으로 수정했다.
 
             <button onClick={onJam}>jam </button>
+            
