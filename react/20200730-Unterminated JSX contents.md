@@ -28,9 +28,9 @@ Parsing error: Unterminated JSX contents 메시지가 떴다.
 
 ### 3. 해결책
 
-에러 메시지가 지목한 곳과 먼 자리에 있는 <h1> 태그가 닫히지 않았었다. 닫아주니 해결되었다.
+에러 메시지가 지목한 곳과 먼 자리에 있는 `<h1>` 태그가 닫히지 않았었다. 닫아주니 해결되었다.
 
-            <h1> {bread} <h1>  // </h1>으로 수정했다.
+            <h1> {bread} <h1>  // `</h1>`으로 수정했다.
 
             <button onClick={onJam}>jam </button>
             
