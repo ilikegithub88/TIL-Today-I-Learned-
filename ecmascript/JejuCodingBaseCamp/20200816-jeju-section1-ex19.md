@@ -8,7 +8,7 @@
 ## 2. 내 풀이
 
 #### 문제 19.
-        const n = prompt('수를 입력하세요.').split(' ');
+        const n = prompt('a와 b를 입력하세요.').split(' ');
 
         console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
 
